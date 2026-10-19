@@ -23,6 +23,13 @@ answer = ""
 for block in reply.content:
     if block.type == "text":
         answer = answer + block.text
-print("RAW:", repr(answer[:300]))
-data = json.loads(answer)
+try:
+    data = json.loads(answer)
+except json.JSONDecodeError:
+    sys.exit("ERROR: the model did not return valid JSON. It returned:\n" + answer[:500])
+expected = {"summary", "themes", "sentiment", "action_items"}
+if set(data.keys()) != expected:
+    sys.exit("ERROR: wrong keys. Expected " + str(sorted(expected)) + ", got " + str(sorted(data.keys())))
+if data["sentiment"] not in ("positive", "mixed", "negative"):
+    sys.exit("Error: sentiment must be positive, mixed or negative, got: " + str(data["sentiment"]))    
 print(json.dumps(data, indent=2))
