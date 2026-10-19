@@ -1,0 +1,30 @@
+﻿{
+  "summary": "Copper Lane Kitchen & Bar earns consistent praise for its braised short rib, its cocktails, and server Dana, with several reviewers returning specifically for her. Weekend service is the main complaint, with long waits for food and drinks, understaffing, reservation mix-ups, and a serious gluten-free miss that a celiac guest reported. Secondary concerns include patio music volume, prices, bland fish tacos, and washroom upkeep.",
+  "themes": [
+    "Braised short rib praised",
+    "Server Dana praised",
+    "Slow weekend service and long waits",
+    "Understaffing",
+    "Reservation system errors",
+    "Gluten-free and allergen handling",
+    "Patio music too loud",
+    "Rising prices",
+    "Fish tacos bland",
+    "Washroom cleanliness",
+    "Food quality generally good",
+    "Cocktails and happy hour praised"
+  ],
+  "sentiment": "mixed",
+  "action_items": [
+    "Investigate the celiac guest's gluten-free incident (risotto thickened with flour) and retrain all staff on allergen procedures and what counts as gluten-free",
+    "Clearly mark gluten-free items on the menu and confirm allergen info with the kitchen before servers answer",
+    "Review weekend staffing levels, especially Saturday and Sunday brunch, to reduce waits for food and drink orders",
+    "Fix the online booking sync and host records to stop double-booked or missing reservations",
+    "Keep a backup supply plan for short rib so guests are not turned away after long waits",
+    "Follow up with the guest who found a hair in their pasta and reinforce management response to food issues",
+    "Lower patio music volume after 8 PM or set a limit, since guests have asked twice",
+    "Check washroom supplies and cleaning schedule, including paper towels and wet floors",
+    "Re-examine the fish taco recipe and seasoning",
+    "Communicate the reasons for price increases or review value on the short rib and other entr\u00e9es"
+  ]
+}
